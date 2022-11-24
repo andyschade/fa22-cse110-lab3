@@ -7,11 +7,12 @@ assignees: ''
 
 ---
 
-<div>
-      <p><label for="Issue">Please tell us what you want changed.</label> </p>
-      <textarea id="Issue" name="Issue" rows="3" cols="50">Let us know what the issue is!</textarea>
-    </div>
-    <div>
-      <input type="submit" value="Submit">
-    </div>
-</div>
+What is the issue?
+
+
+
+How should we fix it?
+
+
+
+Thank you for the input!
