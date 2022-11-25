@@ -1,0 +1,58 @@
+.title {
+    text-align: left;
+    border-style: dotted;
+    border-color: yellow;
+    border-width: .1cm;
+    border-radius: .1cm;
+    text-decoration: double;
+    color: red;
+    background-color: blue;
+    /*Made the title color and the background color of the title!*/
+    height: 30px;
+    width: 300px;
+    max-height: 70px;
+    max-width: 400px;
+    /*Made the sizing of the title!*/
+}
+body {
+    text-align: center;
+}
+h2 {
+    text-align: center;
+}
+li[id="two"] {
+ color: #0F7;
+}
+#three, #five{
+    color: rgb(50,200,150);
+}
+#four {
+    color: hsl(.6, .8, .4);
+}
+
+form {
+    position: inherit;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    margin-left: 70px;
+    margin-right: 70px;
+}
+img{
+    position: relative;
+    orientation: portrait;
+}
+ul > li{
+    border-top: 5px solid black;
+}
+h3 + p{
+    font-weight:bold;
+    background-color: black;
+    color: #fff;
+    padding: 2px;
+}
+header *:first-child{
+    font-weight:bold;
+}
+*{
+    margin: 0;
+}
